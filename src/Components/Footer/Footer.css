@@ -1,0 +1,129 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-logo img{
+    height: 50px;
+    width: 50px;
+}
+.footer-logo p{
+    color: #383838;
+    font-size: 46px;
+    font-weight: 700;
+}
+.footer-links{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #252525;
+    font-size: 20px;
+}
+.footer-links li{
+    cursor: pointer;
+}
+.footer-social-icon{
+    display: flex;
+    gap:20px;
+}
+.footer-icons-container{
+    padding: 10px;
+    padding-bottom: 6px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+}
+.footer-icons-container img{
+    height: 50px;
+    width: 50px;
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #1f1f1f;
+    font-size: 20px;
+}
+.footer-copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background: #c7c7c7;
+    
+}
+@media(max-width:1024px) {
+    .footer-logo p{
+        align-self: flex-end;
+        transform: translateX(230%);
+    }
+    .footer-logo img{
+        transform: translateX(1060%);
+    }
+    .footer-links{
+        transform: translateX(80%);
+    }
+    .footer-icons-container{
+        transform: translateX(735%);
+    }
+    .footer-copyright hr{
+        transform: translateX(65%);
+    }
+    .footer-copyright p{
+        transform: translateX(135%);
+    }
+}
+
+@media(max-width:800px) {
+    .footer-logo p{
+        align-self: flex-end;
+        transform: translateX(330%);
+    }
+    .footer-logo img{
+        transform: translateX(1530%);
+    }
+    .footer-links{
+        transform: translateX(120%);
+    }
+    .footer-icons-container{
+        transform: translateX(1085%);
+    }
+    .footer-copyright hr{
+        transform: translateX(125%);
+    }
+    .footer-copyright p{
+        transform: translateX(200%);
+    }
+}
+
+@media(max-width:500px) {
+    .footer-logo p{
+        align-self: flex-end;
+        transform: translateX(270%);
+    }
+    .footer-logo img{
+        transform: translateX(1230%);
+    }
+    .footer-links{
+        transform: translateX(100%);
+    }
+    .footer-icons-container{
+        transform: translateX(915%);
+    }
+    .footer-copyright hr{
+        transform: translateX(190%);
+    }
+    .footer-copyright p{
+        transform: translateX(170%);
+    }
+}
+

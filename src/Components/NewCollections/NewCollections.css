@@ -1,0 +1,108 @@
+.new-collections{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.new-collections h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.new-collections hr{
+    width: 200px;
+    height: 6px;
+    border-radius:10px;
+    color: #252525;
+
+}
+.collections img {
+    height: 320px;
+    width: 250px;
+    margin-left:15px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 10px;
+}
+@media (max-width:1024px){
+    .collections img {
+        height: 320px;
+        width: 250px;
+        margin-left:515px;
+    }
+    .new-collections h1{
+        align-self: flex-end;
+        transform: translateX(50%);
+        white-space: nowrap;
+    }
+    .new-collections hr{
+        align-self: flex-end;
+        transform: translateX(250%);
+    }
+    .collections .item-name{
+        margin-left: 530px;
+        white-space: nowrap;
+    }
+    .collections .item-price-old{
+        margin-left: 140px;
+    }
+    .collections .item-price-new{
+        margin-left: 530px;
+    }
+}
+@media (max-width:800px){
+    .collections img {
+        height: 320px;
+        width: 250px;
+        margin-left:715px;
+    }
+    .new-collections h1{
+        align-self: flex-end;
+        transform: translateX(120%);
+        white-space: nowrap;
+    }
+    .new-collections hr{
+        align-self: flex-end;
+        transform: translateX(370%);
+    }
+    .collections .item-name{
+        margin-left: 730px;
+        white-space: nowrap;
+    }
+    .collections .item-price-old{
+        margin-left: 110px;
+    }
+    .collections .item-price-new{
+        margin-left: 730px;
+    }
+}
+@media (max-width:500px){
+    .collections img {
+        height: 320px;
+        width: 250px;
+        margin-left:650px;
+    }
+    .new-collections h1{
+        align-self: flex-end;
+        transform: translateX(140%);
+        white-space: nowrap;
+    }
+    .new-collections hr{
+        align-self: flex-end;
+        transform: translateX(330%);
+    }
+    .collections .item-name{
+        margin-left: 730px;
+        white-space: nowrap;
+    }
+    .collections .item-price-old{
+        margin-left: 110px;
+    }
+    .collections .item-price-new{
+        margin-left: 730px;
+    }
+}

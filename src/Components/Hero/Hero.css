@@ -1,0 +1,189 @@
+.hero{
+    height: 160vh;
+    background: rgb(14,30,46);
+    background: linear-gradient(180deg, rgba(14,30,46,1) 0%,rgba(19,37,49,255)76%, rgba(233,239,239,1) 100%);
+    background: linear-gradient(180deg, rgba(14,30,46,1) 0%, rgba(178,184,194,1) 76%, rgba(233,239,239,1) 100%); 
+    display: flex;
+}
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.hero-right img{
+    height:986px;
+    width:736px;
+}
+.hero-left h2{
+    color: aliceblue;
+    font-size: 26px;
+    font-weight: 600;
+}
+.hero-left p{
+    margin-top: 0;
+    color: aliceblue;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: red;
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+@media(max-width:1200px){
+    .hero{
+        background: linear-gradient(180deg, rgba(14,30,46,1) 0%, rgba(178,184,194,1) 76%, rgba(233,239,239,1) 100%); 
+        width: 1800px;
+    }
+    .hero-left{
+        padding-left: 100px;
+    }
+    .hero-left h2{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .hero-left p{
+        margin-top: 10px;
+        font-size: 100px;
+    }
+    .hero-latest-btn{
+        gap: 10px; 
+        width: 250px;
+        height: 60px;
+        /* margin-bottom: 500px;  */
+        font-size: 18px;
+    } 
+    .hero-right img{
+    height:1186px;
+    width:936px;
+    }
+} 
+@media(max-width:1250px){
+    .hero{
+        background: linear-gradient(180deg, rgba(14,30,46,1) 0%, rgba(178,184,194,1) 76%, rgba(233,239,239,1) 100%); 
+        width: 2000px;
+        height: 1100px;
+    }
+    .hero-left{
+        padding-left: 100px;
+    }
+    .hero-left h2{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .hero-left p{
+        margin-top: 10px;
+        font-size: 100px;
+    }
+    .hero-latest-btn{
+        gap: 10px; 
+        width: 250px;
+        height: 60px;
+        font-size: 18px;
+    } 
+    .hero-right img{
+    height:1186px;
+    width:936px;
+    }
+} 
+@media(max-width:440px){
+    .hero{
+        background: linear-gradient(180deg, rgba(14,30,46,1) 0%, rgba(178,184,194,1) 76%, rgba(233,239,239,1) 100%); 
+        width: 1800px;
+
+    }
+    .hero-left{
+        padding-left: 100px;
+    }
+    .hero-left h2{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .hero-left p{
+        margin-top: 10px;
+        font-size: 100px;
+    }
+    .hero-latest-btn{
+        gap: 10px; 
+        width: 250px;
+        height: 60px;
+        font-size: 18px;
+    } 
+    .hero-right img{
+    height:986px;
+    width:736px;
+    margin-right: 540px;
+    }
+} 
+@media(max-width:800px){
+    .hero{
+        background: linear-gradient(180deg, rgba(14,30,46,1) 0%, rgba(178,184,194,1) 76%, rgba(233,239,239,1) 100%); 
+        width: 2230px;
+        height:1100px;
+    }
+    .hero-left{
+        padding-left: 100px;
+    }
+    .hero-left h2{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .hero-left p{
+        margin-top: 10px;
+        font-size: 100px;
+    }
+    .hero-latest-btn{
+        gap: 10px; 
+        width: 250px;
+        height: 60px;
+        font-size: 18px;
+    } 
+    .hero-right img{
+    height:1186px;
+    width:936px;
+    margin-right: 540px;
+    }
+} 
+@media(max-width:440px){
+    .hero{
+        background: linear-gradient(180deg, rgba(14,30,46,1) 0%, rgba(178,184,194,1) 76%, rgba(233,239,239,1) 100%); 
+        width: 1695px;
+    }
+    .hero-left{
+        padding-left: 100px;
+    }
+    .hero-left h2{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .hero-left p{
+        margin-top: 10px;
+        font-size: 100px;
+    }
+    .hero-latest-btn{
+        gap: 10px; 
+        width: 250px;
+        height: 60px;
+        font-size: 18px;
+    } 
+    .hero-right img{
+    height:986px;
+    width:736px;
+    margin-right: 540px;
+    }
+} 

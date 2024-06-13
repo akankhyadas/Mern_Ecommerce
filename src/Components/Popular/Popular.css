@@ -1,0 +1,113 @@
+.popular{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+}
+.popular h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius:10px;
+    color: #252525;
+
+}
+.popular-item img {
+    height: 280px;
+    width: 250px;
+    margin-left:15px;
+}
+.popular-item{
+    margin-top: 50px;
+    display: flex;
+}
+@media (max-width:1024px) {
+    .popular-item img {
+        height: 280px;
+        width: 3250px;
+        margin-left:515px;
+    }
+    .popular h1{
+        align-self: flex-end;
+        transform: translateX(50%);
+    }
+    .popular hr{
+        align-self: flex-end;
+        transform: translateX(250%);
+    } 
+    .popular-item .item-name {
+        white-space:nowrap;
+        margin-left: 540px;
+    }
+    .popular-item .item-price-old {
+        margin-left: 120px;
+    }
+    .popular-item .item-price-new {
+        margin-left: 540px;
+    }
+} 
+
+@media (max-width:800px) {
+    .popular{
+        height: 130vh;
+    }
+    .popular-item img {
+        height: 280px;
+        width: 3250px;
+        margin-left:700px;
+    }
+    .popular h1{
+        align-self: flex-end;
+        transform: translateX(90%);
+        white-space: nowrap;
+
+    } 
+    .popular hr{
+        align-self: flex-end;
+        transform: translateX(310%);
+    }
+    .popular-item .item-name {
+        white-space:nowrap;
+        margin-left: 710px;
+    }
+    .popular-item .item-price-old {
+        margin-left: 130px;
+    }
+    .popular-item .item-price-new {
+        margin-left: 710px;
+    } 
+} 
+@media (max-width:500px) {
+    .popular{
+        height: 130vh;
+    }
+    .popular-item img {
+        height: 280px;
+        width: 3250px;
+        margin-left:700px;
+    }
+    .popular h1{
+        align-self: flex-end;
+        transform: translateX(130%);
+        white-space: nowrap;
+    } 
+    .popular hr{
+        align-self: flex-end;
+        transform: translateX(330%);
+    } 
+    .popular-item .item-name {
+        white-space:nowrap;
+        margin-left: 710px;
+    }
+    .popular-item .item-price-old {
+        margin-left: 130px;
+    }
+    .popular-item .item-price-new {
+        margin-left: 710px;
+    } 
+} 

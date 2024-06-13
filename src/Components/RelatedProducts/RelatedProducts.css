@@ -1,0 +1,117 @@
+.relatedproducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+
+.relatedproducts h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.relatedproducts hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.relatedproducts-item {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+/* Target only the images within the .item class */
+.item-image {
+    height: 280px;
+    width: 250px;
+    margin-left: 15px;
+}
+@media (max-width:1024px) {
+    .relatedproducts-item img {
+        height: 280px;
+        width: 250px;
+        margin-left:215px;
+    }
+    .relatedproducts h1{
+        align-self: flex-end;
+        transform: translateX(-10%);
+    }
+    .relatedproducts hr{
+        align-self: flex-end;
+        transform: translateX(130%);
+    } 
+    .relatedproducts-item .item-name {
+        white-space:nowrap;
+        margin-left: 220px;
+    }
+    .relatedproducts-item .item-price-old {
+        margin-left: 110px;
+    }
+    .relatedproducts-item .item-price-new {
+        margin-left:220px;
+    }
+} 
+
+@media (max-width:800px) {
+    .relatedproducts {
+        height: 120vh;
+    }
+    .relatedproducts-item img {
+        height: 280px;
+        width: 250px;
+        margin-left:345px;
+    }
+    .relatedproducts h1{
+        align-self: flex-end;
+        transform: translateX(40%);
+    }
+    .relatedproducts hr{
+        align-self: flex-end;
+        transform: translateX(160%);
+    } 
+    .relatedproducts-item .item-name {
+        white-space:nowrap;
+        margin-left: 320px;
+    }
+    .relatedproducts-item .item-price-old {
+        margin-left: 110px;
+    }
+    .relatedproducts-item .item-price-new {
+        margin-left:320px;
+    }
+} 
+
+@media (max-width:500px) {
+    .relatedproducts {
+        height: 120vh;
+    }
+    .relatedproducts-item img {
+        height: 230px;
+        width: 200px;
+        margin-left:445px;
+    }
+    .relatedproducts h1{
+        align-self: flex-end;
+        transform: translateX(80%);
+    }
+    .relatedproducts hr{
+        align-self: flex-end;
+        transform: translateX(180%);
+    } 
+    .relatedproducts-item .item-name {
+        white-space:nowrap;
+        margin-left: 430px;
+    }
+    .relatedproducts-item .item-price-old {
+        margin-left: 110px;
+    }
+    .relatedproducts-item .item-price-new {
+        margin-left:430px;
+    }
+} 
+
